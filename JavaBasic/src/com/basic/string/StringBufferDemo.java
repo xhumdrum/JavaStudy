@@ -4,8 +4,10 @@ public class StringBufferDemo {
 
     public static void main(String[] args) {
 
+        /*
+        对于字符串的拼接，采用 StringBuffer 可以大幅节省时间和资源
+         */
         countByString();  // 1590s
-
         countByStringBuffer();  // 7s
 
     }
