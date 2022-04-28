@@ -21,8 +21,8 @@ public class CollectionDemo1 {
             System.out.println(c);
         }
 
-
-
+        boolean exists = c.contains("bbbbb");
+        System.out.println(exists);
 
 
     }
