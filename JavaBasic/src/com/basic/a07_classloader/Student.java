@@ -1,4 +1,4 @@
-package com.basic.classloader;
+package com.basic.a07_classloader;
 
 public class Student {
 

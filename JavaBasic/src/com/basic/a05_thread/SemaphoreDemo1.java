@@ -1,4 +1,4 @@
-package com.basic.thread;
+package com.basic.a05_thread;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -1,4 +1,4 @@
-package com.basic.network;
+package com.basic.a06_network;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

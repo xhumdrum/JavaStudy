@@ -1,4 +1,4 @@
-package com.basic.thread;
+package com.basic.a05_thread;
 
 public class AtomThreadDemo1 {
     public static void main(String[] args) {

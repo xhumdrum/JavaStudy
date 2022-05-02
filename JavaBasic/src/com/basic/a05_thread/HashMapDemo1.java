@@ -1,7 +1,5 @@
-package com.basic.thread;
+package com.basic.a05_thread;
 
-import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

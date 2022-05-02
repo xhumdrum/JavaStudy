@@ -1,4 +1,4 @@
-package com.basic.thread;
+package com.basic.a05_thread;
 
 public class Thread2 extends Thread {
 

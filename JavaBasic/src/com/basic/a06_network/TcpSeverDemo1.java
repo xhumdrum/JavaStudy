@@ -1,4 +1,4 @@
-package com.basic.network;
+package com.basic.a06_network;
 
 import java.io.IOException;
 import java.io.InputStream;

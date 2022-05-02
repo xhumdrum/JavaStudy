@@ -1,4 +1,4 @@
-package com.basic.thread;
+package com.basic.a05_thread;
 
 public class ThreadDemo2 {
 

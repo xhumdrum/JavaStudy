@@ -1,4 +1,4 @@
-package com.basic.helloworld;
+package com.basic.a01_helloworld;
 
 public class HelloWorld {
     public static void main(String[] args) {

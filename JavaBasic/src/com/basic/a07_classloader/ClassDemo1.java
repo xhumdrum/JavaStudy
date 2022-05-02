@@ -1,9 +1,4 @@
-package com.basic.classloader;
-
-import com.basic.classloader.Student;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
+package com.basic.a07_classloader;
 
 public class ClassDemo1 {
 
@@ -17,7 +12,7 @@ public class ClassDemo1 {
          */
 
         // 方法 一： Class 类的静态方法 forName（）+全类名
-        Class clazz1 = Class.forName("com.basic.classloader.Student");
+        Class clazz1 = Class.forName("com.basic.a07_classloader.Student");
 
         // 方法 二：类名 + 静态方法 .class
         Class clazz2 = Student.class;

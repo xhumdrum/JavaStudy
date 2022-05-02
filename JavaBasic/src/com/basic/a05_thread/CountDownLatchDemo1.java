@@ -1,7 +1,6 @@
-package com.basic.thread;
+package com.basic.a05_thread;
 
 import java.util.concurrent.CountDownLatch;
-import java.util.logging.XMLFormatter;
 
 public class CountDownLatchDemo1 {
 

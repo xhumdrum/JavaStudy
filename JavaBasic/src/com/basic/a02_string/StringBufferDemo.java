@@ -1,4 +1,4 @@
-package com.basic.string;
+package com.basic.a02_string;
 
 public class StringBufferDemo {
 

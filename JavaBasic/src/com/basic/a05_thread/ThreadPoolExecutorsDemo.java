@@ -1,4 +1,4 @@
-package com.basic.thread;
+package com.basic.a05_thread;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Executors;

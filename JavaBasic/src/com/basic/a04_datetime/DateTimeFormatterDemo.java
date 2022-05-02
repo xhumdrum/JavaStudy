@@ -1,4 +1,4 @@
-package com.basic.datetime;
+package com.basic.a04_datetime;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
