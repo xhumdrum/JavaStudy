@@ -3,15 +3,22 @@ package com.basic.a07_classloader;
 public class Student {
 
     private String name;
-    private int age;
+    public int age;
 
     public Student() {
+    }
+
+    private Student(String name) {
+        this.name = name;
     }
 
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
+
+
+
 
     public String getName() {
         return name;
@@ -36,7 +43,13 @@ public class Student {
                 ", age=" + age +
                 '}';
     }
+
     private void show() {
         System.out.println(this.toString());
     }
+
+    public int returnTest(int num) {
+        return num * num;
+    }
+
 }

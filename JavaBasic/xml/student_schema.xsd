@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="student"
+        elementFormDefault="qualified"
+>
+    <!--以上格式是固定的：其中 targetNamespace 定义名称空间，可以自己定义，其他都是固定不变的-->
+
+    <!-- 定义 students 是一个复杂元素-->
+    <element name="students">
+        <complexType>  <!--表示这个元素是复杂元素-->
+            <sequence> <!--表示子元素必须按照顺序-->
+
+                <element name="student">
+                    <complexType>
+
+                        <sequence>
+                            <element name="name" type="string"></element>
+                            <element name="age" type="string"></element>
+                        </sequence>
+
+                        <attribute name="id" type="string" use="required"></attribute>
+
+                    </complexType>
+                </element>
+
+            </sequence>
+
+        </complexType>
+
+
+    </element>
+
+
+</schema>

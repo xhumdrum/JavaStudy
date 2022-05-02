@@ -1,0 +1,35 @@
+<!--约束语法-->
+<!--定义一个元素的格式：<!ELEMENT 元素名 元素类型>-->
+
+<!-- 复杂元素，括号内直接写子元素的名称
+    如果有多个元素：
+    1. 用 , 隔开，表示子元素需要按顺序
+    2. 用 | 隔开，表示子元素只能出现任意一个
+    另外可以定义子元素出现的字数
+    1. + 一次或多次
+    2. ？ 零次或一次
+    3. *  零次或多次
+    4. 不写，就表示一次
+-->
+<!ELEMENT students (student+)>
+<!ELEMENT student (name,age)>
+
+<!-- 定义标签的属性
+     定义的格式为： <!ATTLIST 元素名 属性名 属性类型 属性约束>
+     属性类型：
+     1. CDATA 普通字符串
+     属性约束：
+     1. #REQUIRED 必须的
+     2. #IMPLIED 不是必须的
+     3. #FIXED value 固定值为 value
+-->
+<!ATTLIST student id CDATA #REQUIRED>
+
+<!--简单元素，有以下类型：
+    1. PCDATA 表示该元素的标签体是字符串（最常用的）
+    2. ANY 表示标签体可以为空也可以不为空
+    3. EMPTY 表示标签体为空
+-->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+
