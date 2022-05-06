@@ -1,6 +1,5 @@
 package com.basic.a10_annotation;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -19,7 +18,7 @@ public class AnnoDemo1 {
         // 遍历方法
         for (Method method : methods) {
 
-            if (method.isAnnotationPresent(Test.class)) {
+            if (method.isAnnotationPresent(AnnoTest.class)) {
                 method.invoke(useTest);
             }
 

@@ -6,16 +6,16 @@ package com.basic.a10_annotation;
  */
 public class UseTest {
 
-        public void show1() {
+    public void show1() {
         System.out.println("show1");
     }
 
-    @Test
+    @AnnoTest
     public void show2() {
         System.out.println("show2");
     }
 
-    @Test
+    @AnnoTest
     public void show3() {
         System.out.println("show3");
     }
