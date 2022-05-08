@@ -1,0 +1,12 @@
+
+1. 新建 Modules: WebStudy
+2. 在 WebStudy 上按鼠标右键，选 Add Framework Support...
+3. 勾选 Web Application,会自动创建 web/WEB-INF... 文件结构
+4. Edit Configurations.../Deployment/, add WebStudy
+5. 修改 web.xml 文件:
+   增加：
+   <welcome-file-list>
+           <welcome-file>/WEB-INF/html5/00_index.html</welcome-file>
+   </welcome-file-list>
+
+
