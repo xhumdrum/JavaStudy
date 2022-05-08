@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签</title>
+</head>
+<body>
+<!-- 表格标签的格式：
+  <table>
+    <tr>
+      <td>
+      </td>
+    </tr>
+  </table>
+
+  table标签：整个表格
+  tr标签：一行
+  td标签：一行中的一个单元格
+
+  注意：
+  1. 边框属性: border="1",默认值是 0，看不到边框
+  2. table,tr,td三者是一组标签，通常一起出现
+  3. 其他属性：
+      3.1 宽度width和高度height，可以修饰table 和  td
+      3.2 水平对齐align， 可以修饰 table 和 tr td
+      3.3 垂直对齐valign， 只能修饰 tr 和 td
+      3.4 外边距cellspacing(默认2px)和内边距cellpadding(默认1px)， 只能修饰 table
+      3.5 细线表格，可以通过 bgcolor 来实现，tbale:cellspacing="1px" gcolor="black",
+                                         tr:bgcolor="white"
+
+
+-->
+
+<table border="1" width="500px" height="300px" align="center"
+       cellspacing="1px" cellpadding="30px" bgcolor="gray">
+  <tr align="center" valign="bottom" bgcolor="white">
+    <td width="100px" height="50px">列1---</td>
+    <td align="right" valign="top">列2</td>
+    <td>列3</td>
+    <td>列4</td>
+  </tr>
+  <tr bgcolor="white">
+    <td>列1</td>
+    <td>列2---</td>
+    <td>列3</td>
+    <td>列4</td>
+  </tr>
+  <tr bgcolor="white">
+    <td>列1</td>
+    <td>列2---</td>
+    <td>列3</td>
+    <td>列4</td>
+  </tr>
+</table>
+
+</body>
+</html>

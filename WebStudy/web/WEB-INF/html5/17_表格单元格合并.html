@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单元格合并</title>
+</head>
+<body>
+
+<!--
+水平合并： colspan="2"
+垂直合并： rowspan="2"
+
+注意：1. 都是向后或向下合并
+     2. 要把合并后多出的单元格屏蔽掉
+
+-->
+
+<table border="1px" width="300px" align="center" bgcolor="black" cellspacing="1px">
+  <tr align="center" bgcolor="white">
+    <td colspan="2">1-1</td> <!--水平合并-->
+<!--    <td>1-2</td>-->
+    <td>1-3</td>
+  </tr>
+  <tr align="center" bgcolor="white">
+    <td>2-1</td>
+    <td rowspan="2">2-2</td>  <!--垂直合并-->
+    <td>2-3</td>
+  </tr>
+  <tr align="center" bgcolor="white">
+    <td>3-1</td>
+<!--    <td>3-2</td>-->
+    <td>3-3</td>
+  </tr>
+</table>
+
+
+</body>
+</html>

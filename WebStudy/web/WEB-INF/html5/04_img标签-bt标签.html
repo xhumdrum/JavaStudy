@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>img标签-br标签</title>
+</head>
+<body>
+
+<!--  img 标签
+    1. src 属性指定图片路径（相对路径/绝对路径）
+    2. alt 属性指定图片不存在时提示信息
+    3. title 鼠标划过图片时的提示信息
+    4. 如果要图片保持等比例，可以只指定 width 或者 height
+-->
+<img src="../imgs/001.jpg">
+<br>
+<img src="../imgs/002.jpg" width="100" title="我是图片">
+<br>
+<img src="../imgs/001x.jpg" alt="对不起图片不存在">
+
+<!-- br 标签
+    1. 换行标签,可以连续·使用
+    2. 企业开发中，很少用 br 换行，一般用 <p> 标签
+-->
+<p><img src="../imgs/004.jpg"></p>
+
+<!--路径问题
+    1. 图片文件和当前的html文件同在一个文件夹中，可以直接用图片文件名 001.jpg
+    2. 下级文件夹： imgs/001.jpg
+    3. 上级文件夹： ../imgs/001.jpg
+    4. 绝对路径：D:\WebStudy\imgs\001.jpg (一般不用这种方式)
+
+-->
+
+</body>
+</html>
