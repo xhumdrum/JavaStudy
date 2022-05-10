@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布动态资源案例</title>
+</head>
+<body>
+
+  <h2>发布动态资源步骤</h2>
+
+  <ul>
+    <li>1. 创建一个 JavaWEB 项目</li>
+    <li>2. 将静态页面所需的资源导入到项目 web 目录下</li>
+    <li>3. 修改 web.xml 配置文件，修改默认主页</li>
+    <li>4. 在项目 src 路径下编写一个类，实现 servlet 接口</li>
+    <li>5. 重写 service 方法，输入内容 </li>
+    <li>6. 修改 web.xml 配置文件，配置 Servlet 相关资源</li>
+    <li>7. 将项目部署到 Tomcat 中</li>
+    <li>8. 启动 Tomcat 服务</li>
+    <li>9. 打开浏览器测试功能,点击 <a href="../src/student">http://localhost:8080/tomcatdemox/src/student</a></li>
+  </ul>
+  <form action="../src/student">
+
+    <div>请输入您的姓名：
+      <input type="text" name="name">
+      <button type="submit">提交</button>
+    </div>
+
+  </form>
+
+  <h2>web.xml配置文件与servlet执行流程</h2>
+  <img src="../imgs/servlet执行流程.png" alt="">
+
+
+
+</body>
+</html>
